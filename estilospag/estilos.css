@@ -11,6 +11,18 @@
     font-family: "honey";
     src: url("../pagweb/tipografiaMo/honey_latte_2/Honey\ Latte.ttf");
 }
+@font-face {
+    font-family: "honey";
+    src: url("../tipografiaMo/biograph/Biograph.otf");
+}
+@font-face {
+    font-family: "honey";
+    src: url("../tipografiaMo/green_london/Green\ London.ttf");
+}
+@font-face {
+    font-family: "honey";
+    src: url("../tipografiaMo/springtime_romance/Springtime\ Romance.ttf");
+}
   :root{
     --padding-container: 100px 0;
     --color-title: #001A49;
