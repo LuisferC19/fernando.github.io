@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>el alfarero</title>
   <link rel="stylesheet" href="./estilos.css">
-  <link rel="shortcut icon" href="../pagweb/logotipo/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../pagweb/logotipo/" type="image/x-icon">
   <style>
     body {
       background: url(../pagweb/imagenes/fondo1.jpg)  ; 
@@ -21,7 +21,6 @@
       text-align: center;
       background-image: url(../pagweb/imagenes/seccion1.jpeg);
       background-size: contain;
-      background
     }
   </style>
 </head>
@@ -91,7 +90,25 @@
                   </td>
                 </tr>
               </table>
-              <p style="font-family:bluetea">HOLA VANE </p>
+              <script>
+                function light(sw) {
+                  var pic;
+                  if (sw == 0) {
+                    pic = "pic_bulboff.gif"
+                  } else {
+                    pic = "pic_bulbon.gif"
+                  }
+                  document.getElementById('myImage').src = pic;
+                }
+                </script>
+                
+                <img id="myImage" src="../pagweb/imagenes/pic_bulboff.gif" width="100" height="180">
+                
+                <p>
+                <button type="button" onclick="light(1)">Light On</button>
+                <button type="button" onclick="light(0)">Light Off</button>
+                </p>
+                
 
 </body>
 </html>
