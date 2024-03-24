@@ -1,101 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>el alfarero</title>
-  <link rel="stylesheet" href="./estilos.css">
-  <link rel="shortcut icon" href="../pagweb/logotipo/favicon.ico" type="image/x-icon">
-  <style>
-    body {
-      background: url(../pagweb/imagenes/fondo1.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 0;
-      height: 100vh;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flores Amarillas &lt;3</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@1&display=swap" rel="stylesheet">
+    <!--
+        Codigo By: MartL7
+    -->
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Tutoriales</a></li>
-        <li><a href="#">Cursos</a></l>
-        <li><a href="#">Bootcamps</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
-  <article>
-    <h1 style="font-family:bluetea;" class="primary-black">datos sobre los sombreros</h1>
-    <p class=" text-red text-center">El sombrero más antiguo
-      De acuerdo con evidencia arqueológica, los sombreros más antiguos podrían haber surgido hace 27 mil
-      años en la actual República Checa. Los arqueólogos dicen que han encontrado figuras de “Venus” que
-      tienen peinados muy elaborados, los cuales podrían no ser peinados sino sombreros.</p>
-    <img src="./imagenes/curiosos-sombrero.png" alt="gorro de lana" width="120 px" height="120 px">
-  </article>
 
-  </main>
-  <style>
-    table,
-    th,
-    td {
-      border: 2px solid green;
-      background: rgb(235, 140, 51);
-      color: black;
-    }
-  </style>
-  <table style="width:100%">
-    <tr style="font-family:honey ;">
-      <b>
-        <th>sombreros para niños</th>
-        <th>sombreros para niñas</th>
-        <th>sombreros para hombres</th>
-        <th>sombreros para mujeres</th>
-      </b>
-    </tr>
-    <tr>
-      <b>
-        <td>edades de 15 años para abajo</td>
-        <td>edades de 15 años para abajo</td>
-        <td>edades de 15 años para arriba</td>
-        <td>edades de 15 años para arriba</td>
-      </b>
-    </tr>
+    <div class="Contenedor-Binicio">
+        <button class="Button" id="BVer"> Click aqui❤️ </button>
+    </div>
 
-    <tr>
-      <td>precio $100</td>
-      <td>precio $100</td>
-      <td>precio $150</td>
-      <td>precio $150</td>
-    </tr>
-    <tr>
-      <td>
-        <img src="https://th.bing.com/th/id/OIP.xUMMaBdClfVSUcTBs2abhAHaFk?pid=ImgDet&rs=1" alt="sombrero color cafe "
-          width="90 px" height="90 px">
-      </td>
-    </tr>
-  </table>
-  <script>
-    function light(sw) {
-      var pic;
-      if (sw == 0) {
-        pic = "pic_bulboff.gif"
-      } else {
-        pic = "pic_bulbon.gif"
-      }
-      document.getElementById('myImage').src = pic;
-    }
-  </script>
+    <div class="Con-Emergente">
+        <div id="resultado" class="cua">
+            <p id="res">
+                Hola mi niña hermosa, antes de iniciar, solo quiero recordarte que eres 
+                muy especial para mí y que te amo muchisimo❤️😊. &lt;3
+            </p>    
+            <button id="BotonCerrar" class="Button">Cerrar</button>
+        </div>
+    </div>
 
-  <img id="myImage" src="../pagweb/imagenes/pic_bulboff.gif" width="100" height="180">
+    <div class="Con-2">
+        <h1 id="Titulo"> Elije una Opcion😊 </h1>
+        <div class="Con">
+            <button class="Button" id="B1"> 1 Flor </button>
+            <button class="Button" id="B12"> 12 Flores  </button>
+        </div>
+    </div>
 
-  <p>
-    <button type="button" onclick="light(1)">Light On</button>
-    <button type="button" onclick="light(0)">Light Off</button>
-  </p>
+    <main class="Contenedor">
+        <canvas id="Flor" class="Flor" width="800" height="600"></canvas>
+
+        <div class="Texto">
+            <h2 id="Text">Para la niña mas Linda del Mundo❤️😍</h2>
+            <h2 id="Text"> Te amo muchisimo mi niña hermosa y espero que te gusten tus flores amarillas 🌻😊</h2>
+        </div>
+
+    </main>
+
+    <script src="js/aplicación.js"></script>
+    <script src="js/Dis.js"></script>
 </body>
 </html>
